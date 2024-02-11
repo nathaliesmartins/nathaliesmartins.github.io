@@ -3,52 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Método CSS externo, em um arquivo .css  -->
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
     <title>Exibindo uma Imagem</title>
-    <style>
-        /* Estilo para tornar a imagem responsiva */
-        body {
-            background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga3H9fit6wkWfmXGAHuHANXIIF19twQvbG9UYamcXMTgTM2K6X97ICnCKog2LOHWsE-F240kda_FZcHtPBIIafvwxBGYhnQjZPAtbQ0OrIvBmDrt8LHKO6t8Ytx3QIIM7Qn1JtCJDrlm3e/s1600/0_166b9b_87592a36_L.gif");
-            margin: 0; /* Remove margens padrão */
-            padding: 0; /* Remove padding padrão */
-        }
 
-        img{
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        h2 {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 10 auto;
-            color:white;
-            text-align: center;
-            font-size:40px;
-            background-color: black;
-        }
-        
-        h3 {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 30 auto;
-            color:white;
-            text-align: center;
-            font-size:20px;
-            background-color: black;
-        }
-        div{
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 50px 50px auto;
-            margin-top: 100px;
-      ]
 
-        }
-    </style>
 </head>
 <body>
     <div> 
@@ -63,11 +22,13 @@ força para que você possa lutar pelos seus objetivos hoje e sempre! Feliz Aniv
         
     </div>
 
-    <audio controls autoplay>
-        <source src="niver.mp3"/>
-        Seu navegador não suporta áudio HTML5
-
-   </audio>
-      
+    <div class="musica"> 
+        <audio controls autoplay>
+            <source src="niver.mp3"/> 
+            <source src="niver.ogg"/> 
+            Seu navegador não suporta áudio HTML5
+   
+       </audio>
+    </div>
 </body>
 </html>
